@@ -1,5 +1,5 @@
 <?php 
-    Global $Connection;
+    //Global $Connection;
     require_once("const.php");
     require_once("functions.php");
     $Connection = getConnection(DB);
@@ -19,8 +19,10 @@
             if($count_rows > 0) {
                 foreach ($results as $row) {
                     echo "<tr>";
-                    foreach ($row as $col => $val) {                        
-                        echo "<td>" . $val .  "</td>";                        
+                    foreach ($row as $col => $val) {
+                        if(!is_numeric($col)){
+                            echo "<td>" . $val .  "</td>";
+                        }                        
                     }
                     echo "</tr>";
                 }

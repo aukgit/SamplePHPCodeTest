@@ -1,10 +1,9 @@
 <?php require_once("const.php") ?>
 <?php require_once("functions.php") ?>
 
-<form action="index.php" method="post">
-    <input type="text" name="Firstname" placeholder="First Name"/> <br />
-    <input type="text" name="LastName" placeholder="Last Name"/> <br />
-    <input type="date" name="DateOfBirth" placeholder="Date of Birth"/> <br />
+<form action="index.php" method="post">    
+    <input type="text" name="Name" placeholder="Name"/> <br />
+    <textarea placeholder="Address" name="Address"></textarea> <br />
     <input type="submit" value="Save"/>
 </form>
 <?php 

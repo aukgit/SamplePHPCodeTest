@@ -27,6 +27,3 @@
     <textarea placeholder="FILE text" name="file" rows="40"><?php echo $fileData; ?></textarea> <br />
     <input type="submit" value="Save"/>
 </form>
-
-
-html>head+body>div.page-home>nav#navigation>ul#menu.menu-default>li.menu-item-$$          

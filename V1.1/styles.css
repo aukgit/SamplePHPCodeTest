@@ -1,0 +1,26 @@
+.show-people-table th {
+    width: 150px;
+}
+
+.show-people-table tr:hover {
+    background-color: rgba(180, 190, 207, 0.78);
+}
+
+.show-people-table td {
+    text-align: center;
+}
+
+.show-people-table,
+.show-people-table thead tr,
+.show-people-table tbody {
+    border: 0.5px solid rgba(180, 190, 207, 0.78);
+}
+
+.green {
+    background-color: green;
+}
+
+.message {
+	color: white;
+	padding-left: 10px;
+}

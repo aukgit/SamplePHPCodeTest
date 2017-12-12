@@ -1,0 +1,142 @@
+.page{
+    width: 1157px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+    transition: all 0.25s;
+}
+
+.right{
+    text-align: right;
+}
+
+.center-text{
+    text-align: center;
+}
+
+.left{
+    text-align: left;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+}
+
+header h1{
+    background-color: skyblue;
+    padding: 30px 0;
+    border: 2px dotted blue;
+}
+
+.breaking-news li{
+    border: 2px solid blue;
+    background-color: greenyellow;
+    display: inline-block;
+    width: 30%;
+    height: 180px;    
+    margin-right: 33px;
+}
+
+.breaking-news li h3, .breaking-news li h4{
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.general-news li{
+    border: 2px solid #777788;
+    background-color: #b1d3fd;
+    width: 96.6%;
+    height: 80px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+
+.news-item .body{
+    color: grey;
+    padding: 0;
+    font-size: 15px;
+}
+
+.general-news li h3, .breaking-news li h4{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.general-news li h3{
+    padding:0;
+}
+
+
+form label{
+    width: 250px;
+    text-align: right;
+    padding: 5px 0;
+    margin-right: 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+form input[type='text'], input[type='number'], input[type='password']{
+    width: 250px;
+    padding: 3px 0;
+    border: none;
+    border-bottom: 3px solid #efefef;
+    transition: all 0.25s;
+}
+
+textarea{
+    margin-top: 4px;
+    transition: all 0.25s;
+    border: none;
+    border-bottom: 3px solid #efefef;
+}
+
+form input[type='text']:focus, input[type='number']:focus, input[type='password']:focus,textarea:focus{
+    border-bottom: 4px solid blue;
+    padding: 5px 0;
+    margin-top: 4px;
+}
+
+form input[type='submit']{
+    text-align: right;
+    margin-left: 264px;
+    margin-top: 15px;
+    border: 2px solid #b5b5b5;
+    padding: 5px 107px;
+    transition: all 0.25s;
+    font-weight: bold;
+    color: #9c9ca0;
+}
+
+form input[type='submit']:hover{
+    
+    border: 2px solid grey;
+    color: black;
+    
+}
+
+.error{
+    background-color: red;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+}
+
+
+.success{
+    background-color: green;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+}
